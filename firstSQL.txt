@@ -1,0 +1,11 @@
+-- DDL DATA DEFINITION LANGUAGE 
+CREATE TABLE tasks {
+  task_name VARCHAR(255),
+  complete(1)
+};
+
+-- DML Data Manipulation Language
+
+INSERT INTO tasks VALUES ('Study SQL','Y');
+
+SELECT * FROM tasks;
